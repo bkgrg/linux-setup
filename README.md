@@ -68,6 +68,13 @@ libxcrypt-compat
 libxslt
 glu
 
+glslang
+cmake
+meson
+libglvnd
+lib32-libglvnd
+libvdapu
+
 # Low Latency Mirrors to my location
 ## Taiwan
 Server = https://mirror.twds.com.tw/archlinux/$repo/os/$arch
