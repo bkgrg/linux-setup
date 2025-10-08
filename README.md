@@ -1,64 +1,77 @@
 # Base ArchLinux System
 base
 base-devel
-dkms
 efibootmgr
-gst-plugin-pipewire
 intel-ucode
-libpulse
-ilbva-nvidia-driver
+linux
 linux-firmware
-linux-zen
-linux-zen-headers
+xorg-server
+
+# Graphics
+dkms
+libva-nvidia-driver
 nvidia-dkms
+/OR/
+mesa
+
+# Audio
+gst-plugin-pipewire
+libpulse
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 wireplumber
-xorg-server
-xorg-xinit
-zram-generator
+xfce4-pulseaudio-plugin
 
 # Installed apps
 chromium
-git-lfs
-htop
+code
+gnome-keyring
+iwd
+meld
+mousepad
 nano
 noto-fonts
+ntfs-3g
 unzip
-vlc
+upower
 
 # Installed DE
+gnome-themes-extra
+thunar
 xfce4-panel
-xfce4-pulseaudio-plugin
 xfce4-session
 xfce4-settings
 xfce4-terminal
 xfwm4
 
 # Android ROM development
-android-file-transfer
 android-tools
-bc
 ccache
-code
-ffmpeg
+git-lfs
+glu
 gperf
 imagemagick
-inetutils
-lzop
-meld
-ninja
 openssh
-perl-switch
-pngcrush
 repo
 rsync
+zip
+
+
+inetutils
+lzop
+perl-switch
+pngcrush
+glslang
+cmake
+meson
+libglvnd
+lib32-libglvnd
+libvdapu
 schedtool
 sndio
 squashfs-tools
-zip
 lib32-gcc-libs
 lib32-glibc
 lib32-readline
@@ -66,14 +79,6 @@ lib32-ncurses
 lib32-zlib
 libxcrypt-compat
 libxslt
-glu
-
-glslang
-cmake
-meson
-libglvnd
-lib32-libglvnd
-libvdapu
 
 # Low Latency Mirrors to my location
 ## Taiwan
